@@ -158,6 +158,21 @@
         </a>
       </div>
     </footer>
+        <script>
+      const navToggle = document.querySelector('.nav-toggle');
+      const navLinks = document.querySelector('.nav-links');
+
+      navToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('open');
+      });
+
+      // Optional: close menu after clicking a link
+      document.querySelectorAll('.nav-links a').forEach(link =>
+        link.addEventListener('click', () => {
+          navLinks.classList.remove('open');
+        })
+      );
+    </script>
     
   </body>
 </html>

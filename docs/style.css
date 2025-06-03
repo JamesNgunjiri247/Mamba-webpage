@@ -293,3 +293,6 @@ footer {
   transform: scale(1.04);
   box-shadow: 0 6px 18px rgba(0,0,0,0.18);
 }
+html {
+  scroll-behavior: smooth;
+}

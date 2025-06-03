@@ -297,13 +297,15 @@ html {
   scroll-behavior: smooth;
 }
 /* ...existing code... */
+
 .gmail-icon {
-  color: #EA4335; /* Official Gmail red */
-  font-size: 24px;
+  display: inline-block;
   vertical-align: middle;
-  transition: color 0.3s;
+  margin: 0 8px;
+  transition: transform 0.2s;
 }
 .gmail-icon:hover {
-  color: #c5221f; /* Slightly darker on hover */
+  transform: scale(1.1);
 }
+
 /* ...existing code... */
